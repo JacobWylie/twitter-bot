@@ -72,9 +72,9 @@ $ SET BOT_ACCESS_TOKEN_{your token secret}
 Customize your own:
 
 Change search params
-q = queries
-count = how many tweets will be retrieved
-geocode = location of tweets and radius
+- q = queries
+- count = how many tweets will be retrieved
+- geocode = location of tweets and radius
 
 ```javascript
 
