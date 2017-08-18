@@ -5,7 +5,7 @@ const twit    = require('twit'),
 // Retweet Node Bot
 const retweetReact = function() { 
 	// Find latest tweet according to the 'q' query in params	
-	const params = {
+	let params = {
     	q: '#reactjs', // Required
     	count: 5,
     	geocode: '52.520007,13.404954,30mi',
