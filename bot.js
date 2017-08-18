@@ -1,6 +1,6 @@
 const nodeBot       = require('./nodeBot.js'),
 	  reactBot      = require('./reactBot.js')
-	  javascriptBot = require('./nodeBot.js');
+	  javascriptBot = require('./javascriptBot.js');
 
 // Grab and retweet Node Bot when program starts
 nodeBot();
