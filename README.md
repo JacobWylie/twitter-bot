@@ -110,7 +110,7 @@ heroku addons:create scheduler:standard
 
 ```
 
-Go to your Heroku dashboard and configure the Heroku Scheduler 
+Go to your Heroku dashboard and configure the Heroku Scheduler to run the app periodically. You can also setInterval() in your app and run your app as a 'worker' on Heroku.
 
 
 
