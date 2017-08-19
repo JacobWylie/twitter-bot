@@ -8,7 +8,7 @@ const retweetReact = function() {
 	let params = {
     	q: '#reactjs', // Required
     	count: 5,
-    	geocode: '52.520007,13.404954,30mi',
+    	// geocode: '52.520007,13.404954,30mi',
     	result_type: 'recent',
     	lang: 'en'    
   	}
@@ -24,13 +24,11 @@ const retweetReact = function() {
   				Twitter.post('statuses/retweet/:id', {
   					id: retweetId
   				}, (err, response) => {
-  					if(response) {
-  						console.log(`REACT BOT Retweeted post # ${retweetId}`);
-  					}
-  					// If error while retweeting
-  					if (err) {
-  						console.log(`REACT BOT couldn't retweet post # ${retweetId}`);
-  					}
+  					if(err) {
+                        console.log(`REACT BOT found but did not retweet post # ${retweetId}`);
+                    } else if (response) {
+                        console.log(`REACT BOT retweeted post # ${retweetId}`);
+                    }
   				})
   			}
   		}

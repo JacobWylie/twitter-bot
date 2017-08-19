@@ -24,13 +24,11 @@ const retweetJavaScript = function() {
   				Twitter.post('statuses/retweet/:id', {
   					id: retweetId
   				}, (err, response) => {
-  					if(response) {
-  						console.log(`JAVASCRIPT BOT Retweeted post # ${retweetId}`);
-  					}
-  					// If error while retweeting
-  					if (err) {
-  						console.log(`JAVASCRIPT BOT couldn't retweet post # ${retweetId}`);
-  					}
+  					if(err) {
+                        console.log(`JAVASCRIPT BOT found but did not retweet post # ${retweetId}`);
+                    } else if (response) {
+                        console.log(`JAVASCRIPT BOT retweeted post # ${retweetId}`);
+                    }
   				})
   			}
   		}

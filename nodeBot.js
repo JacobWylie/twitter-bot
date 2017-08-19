@@ -8,7 +8,7 @@ const retweetNode = function() {
 	let params = {
     	q: '#nodejs', // Required
     	count: 5,
-    	geocode: '52.520007,13.404954,30mi',
+    	// geocode: '52.520007,13.404954,30mi',
     	result_type: 'recent',
     	lang: 'en'    
   	}
@@ -24,12 +24,10 @@ const retweetNode = function() {
   				Twitter.post('statuses/retweet/:id', {
   					id: retweetId
   				}, (err, response) => {
-  					if(response) {
-  						console.log(`NODE BOT Retweeted post # ${retweetId}`);
-  					}
-  					// If error while retweeting
-  					if (err) {
-  						console.log(`NODE BOT couldn't retweet post # ${retweetId}`);
+  					if(err) {
+  						console.log(`NODE BOT found but did not retweet post # ${retweetId}`);
+  					} else if (response) {
+  					    console.log(`NODE BOT retweeted post # ${retweetId}`);
   					}
   				})
   			}
