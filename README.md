@@ -1,8 +1,10 @@
 # Berlin Javascript Twitter Bot
 
-Purpose : Keep me hip with the JS in Berlin
+Purpose?
 
-What's it do?
+Keep me hip with JS developers in Berlin
+
+What does it do?
 
 Every hour on the hour it looks for new tweets with hashtags: #nodejs, #reactjs, or #javascript from fellow developers in Berlin and retweets them to my account.
 
@@ -10,7 +12,7 @@ Every hour on the hour it looks for new tweets with hashtags: #nodejs, #reactjs,
 Want to make one for yourself?
 
 
-Clone repo and load modules
+Clone repo and install modules
 
 ```
 
@@ -26,16 +28,16 @@ Make a twitter account
 Setup a new app on your account
 [Create an application](https://apps.twitter.com/app/new)
 
-Follow the steps and get your
+Follow the steps to get your
 - Consumer Key
 - Consumer Secret
 - Access Token
 - Access Token Secret
 
 
-Setup your account keys/tokens on your your server / local terminal
+Setup your account keys/tokens on the server of your choosing
 
-On OSX
+OSX
 
 ```
 
@@ -46,7 +48,7 @@ $ export BOT_ACCESS_TOKEN_{your token secret}
 
 ```
 
-On Heroku
+Heroku
 
 ```
 
@@ -57,7 +59,7 @@ $ heroku config:set BOT_ACCESS_TOKEN_{your token secret}
 
 ```
 
-On Windows
+Windows
 
 ```
 
@@ -69,7 +71,7 @@ $ SET BOT_ACCESS_TOKEN_{your token secret}
 ```
 
 
-Customize your own:
+Customize your bot:
 
 Change search params
 - q = queries
