@@ -8,7 +8,7 @@ const retweetJavaScript = function() {
 	let params = {
     	q: '#javascript', // Required
     	count: 5,
-    	geocode: '52.520007,13.404954,30mi',
+    	geocode: '52.520007,13.404954,100mi',
     	result_type: 'recent',
     	lang: 'en'    
   	}
