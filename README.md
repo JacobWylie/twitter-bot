@@ -6,7 +6,7 @@ Keep me hip with JS developers in Berlin
 
 What does it do?
 
-Every hour on the hour it looks for new tweets with hashtags: '#nodejs', '#javascript', '#reactjs', '#webdev', '#css', '#mongodb', '#vuejs', '#npm', '#es6', '#webdevelopment','#mern', '#programming', '#coding', 'webdesign', '#expressjs', from fellow developers in Berlin and retweets them to my account.
+Every hour on the hour it looks for new tweets with web developer related hashtags from fellow developers in Berlin and retweets them to my account.
 
 
 Want to make one for yourself?
