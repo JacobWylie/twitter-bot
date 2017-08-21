@@ -5,7 +5,7 @@ const twit    = require('twit'),
 const queries = [
     '#nodejs', '#javascript', '#reactjs', '#webdev', '#css',
     '#mongodb', '#vuejs', '#npm', '#es6', '#webdevelopment',
-    '#mern', '#programming', '#coding', 'webdesign', 'expressjs'
+    '#fullstack', '#programming', '#coding', 'webdesign', 'html'
 ]
 
 // Retweet Node Bot
@@ -16,7 +16,7 @@ const retweet = function() {
         let params = {
             q: `${queries[i]}`, // Required
             count: 1,
-            geocode: '52.520007,13.404954,100mi',
+            // geocode: '52.520007,13.404954,100mi',
             result_type: 'recent',
             lang: 'en'    
         }
