@@ -1,15 +1,15 @@
 # Berlin Javascript Twitter Bot
 
-Purpose?
+<h4>Purpose</h4>
 
 Keep me hip with JS developers in Berlin
 
-What does it do?
+<h4>What does it do?</h4>
 
-Every hour on the hour it looks for new tweets with web developer related hashtags from fellow developers in Berlin and retweets them to my account.
+Every hour it looks for new tweets with web development related hashtags from fellow developers in Berlin and retweets them to my account.
 
 
-Want to make one for yourself?
+<h4>Want to make one for yourself</h4>
 
 
 Clone repo and install modules
@@ -71,7 +71,7 @@ $ SET BOT_ACCESS_TOKEN_{your token secret}
 ```
 
 
-Customize your bot:
+Customize your bot
 
 Change search params
 - q = queries
