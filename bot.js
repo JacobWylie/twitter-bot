@@ -9,14 +9,14 @@ const queries = [
 ]
 
 // Retweet Node Bot
-const retweet = function() {
+const retweet = () => {
     // Loop through queries and retreive tweet for each one
     for(i = 0; i < queries.length; i++) {
         // Find latest tweet according to the 'q' query in params   
         let params = {
             q: `${queries[i]}`, // Required
             count: 1,
-            geocode: '52.520007,13.404954,100mi',
+            // geocode: '52.520007,13.404954,100mi',
             result_type: 'recent',
             lang: 'en'    
         }
