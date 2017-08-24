@@ -17,7 +17,7 @@ Clone repo and install modules
 ```
 
 $ git clone https://github.com/JacobWylie/twitter-bot.git
-$ npm init
+$ npm install
 
 ``` 
 
