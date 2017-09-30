@@ -16,7 +16,7 @@ const retweet = () => {
         let params = {
             q: `${queries[i]}`, // Required
             count: 1,
-            geocode: '52.520007,13.404954,300mi',
+            geocode: '52.520007,13.404954,100mi',
             result_type: 'recent',
             lang: 'en'    
         }
