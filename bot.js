@@ -5,7 +5,7 @@ const twit    = require('twit'),
 const queries = [
     '#nodejs', '#javascript', '#reactjs', '#webdev', '#css',
     '#mongodb', '#vuejs', '#npm', '#es6', '#webdevelopment',
-    '#fullstack', '#programming', '#coding', '#webdesign', '#html'
+    '#react', '#node', '#redux', '#webdesign', '#html'
 ]
 
 // Retweet Node Bot
